@@ -144,6 +144,9 @@
                 margin: 0 0 20px 0;
                 span {
                     color: #888;
+                    span {
+                        color: #007acd;
+                    }
                 }
             }
         }
@@ -272,6 +275,16 @@
         }
         .contacts__title {
             font-size: 54px;
+            position: relative;
+            &::after {
+                content: '\ea05';
+                font-family: 'icomoon';
+                font-size: 30px;
+                color: #007acd;
+                position: absolute;
+                top: 20px;
+                margin-left: 15px;
+            }
         }
         .contact__form {
             margin: 20px 0;

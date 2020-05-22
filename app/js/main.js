@@ -63,5 +63,12 @@ $(function() {
     });
 
 
+    var play = document.getElementsById('play'),
+        playAudio = document.getElementsById('clickAudio');
+    play.addEventListener('click', fPlay, false);
+
+    function fPlay() {
+        playAudio.play();
+    }
 
 });
