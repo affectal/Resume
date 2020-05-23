@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'icomoon';
-    src: url('../fonts/icomoon.eot?1hfum7');
-    src: url('../fonts/icomoon.eot?1hfum7#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?1hfum7') format('truetype'), url('../fonts/icomoon.woff?1hfum7') format('woff'), url('../fonts/icomoon.svg?1hfum7#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot?zhntnv');
+    src: url('../fonts/icomoon.eot?zhntnv#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?zhntnv') format('truetype'), url('../fonts/icomoon.woff?zhntnv') format('woff'), url('../fonts/icomoon.svg?zhntnv#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -9,21 +9,22 @@
 
 [class^="icon-"],
 [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
-    // speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-    /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-envelope-o:before {
     content: "\f003";
+}
+
+.icon-language:before {
+    content: "\f1ab";
 }
 
 .icon-street-view:before {
@@ -62,12 +63,8 @@
     content: "\e9ae";
 }
 
-.icon-menu:before {
-    content: "\e9bd";
-}
-
-.icon-point-down::after {
-    content: "\ea05";
+.icon-arrow-down:before {
+    content: "\ea36";
 }
 
 .icon-instagram:before {

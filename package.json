@@ -1,33 +1,31 @@
 {
-  "name": "warehouse",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/affectal/WareHouse.git"
-  },
-  "author": "Vitaly Pavlikov",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/affectal/WareHouse/issues"
-  },
-  "homepage": "https://github.com/affectal/WareHouse#readme",
-  "devDependencies": {
-    "browser-sync": "^2.26.7",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-cssmin": "^0.2.0",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-uglify": "^3.0.2",
-    "malihu-custom-scrollbar-plugin": "^3.1.5",
-    "normalize.css": "^8.0.1",
-    "slick-carousel": "^1.8.1"
-  },
-  "dependencies": {}
+    "name": "warehouse",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/affectal/WareHouse.git"
+    },
+    "author": "Vitaly Pavlikov",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/affectal/WareHouse/issues"
+    },
+    "homepage": "https://github.com/affectal/WareHouse#readme",
+    "devDependencies": {
+        "browser-sync": "^2.26.7",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-concat": "^2.6.1",
+        "gulp-cssmin": "^0.2.0",
+        "gulp-rename": "^2.0.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-uglify": "^3.0.2",
+        "malihu-custom-scrollbar-plugin": "^3.1.5",
+        "normalize.css": "^8.0.1"
+    }
 }
