@@ -85,7 +85,7 @@
                 }
             }
             .icon+.icon {
-                margin-left: 20px;
+                margin-left: 40px;
             }
         }
         .contentBlock {
@@ -180,6 +180,9 @@
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center;
+            &:hover {
+                text-shadow: 0 0 40px #007acd, 0 0 40px #007acd;
+            }
         }
         &__title {
             margin-bottom: 30px;
